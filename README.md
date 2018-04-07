@@ -13,12 +13,12 @@ The algorithm DDS is the abbreviation of Distance Dynamic Synchronization. DDS i
 (2)Each line contains two numbers in the output file: the first number is the vertex id, and the second number is its community id;
   
 3.STEPS OF RUNNING DDS
-(1)Change the value of global variable NetNodeNum(it is number of vertices existing in the network) in line 13;
+(1)Change the value of global variable NetNodeNum(it is number of vertices existing in the network) in line 8;
 (2)Compile the source code;
   For Example:on windows 7 OS:Compile with Virtual Studio 2013;
               on Linux:g++ DDS.cpp -o DDS
 (3)Execute DDS
-  For Example:on windows 7 OS:use the cd command to the directory of DDS.exe in the command line, and input the commands "DDS.exe karate.txt resultKarate.txt 78" and press the "Enter" key to run the algorithm.
+  For Example:on Windows 7 OS:use the cd command to the directory of DDS.exe in the command line, and input the commands "DDS.exe karate.txt resultKarate.txt 78" and press the "Enter" key to run the algorithm.
               on Linux:Input the commands "./DDS karate.txt resultKarate.txt 78" in the comand line, and press the "Enter" key to run the algorithm.
 
 NOTE:
