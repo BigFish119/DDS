@@ -1087,12 +1087,12 @@ void sortFun(int * Pointer, int Num){
 
 int main(int argc, char * argv[])
 {
-	printf("begin........................\n");
+	printf("begin!\n");
 	establishNodeTable(argv[1], atoi(argv[3]));
 	establishEdgeTable();
 	establishEdgesOfNodeTable();
 	interaction(atoi(argv[3]));
 	outputCommunities(argv[2]);
-	printf("end..........................\n");
+	printf("done!\n");
 	return 0;
 }
